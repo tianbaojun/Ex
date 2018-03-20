@@ -1,4 +1,4 @@
-package com.tabjin.ex.ui.adapter.ItemDecoration;
+package com.tabjin.ex.ui.ItemDecoration;
 
 import android.graphics.Canvas;
 import android.graphics.Rect;

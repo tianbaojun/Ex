@@ -8,14 +8,15 @@ import android.support.v7.widget.RecyclerView;
 
 import com.tabjin.ex.R;
 import com.tabjin.ex.bean.Function;
-import com.tabjin.ex.ui.adapter.ItemDecoration.GridWhiteItemDecoration;
+import com.tabjin.ex.ui.ItemDecoration.GridWhiteItemDecoration;
 import com.tabjin.ex.ui.adapter.MainAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * tabjin 作为一个菜单
+ * tabjin
+ * 作为一个菜单launcher
  */
 public class MainActivity extends AppCompatActivity {
 
