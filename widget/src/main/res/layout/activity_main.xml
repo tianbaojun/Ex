@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabjin.viewex.widget.viewgroup.FourCornerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimary" />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:minHeight="100dp"
+        android:minWidth="100dp"
+        android:background="@color/colorAccent" />
+
+    <View
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="sdfsdfsdfsdfsdf" />
+
+</tabjin.viewex.widget.viewgroup.FourCornerLayout>
+
