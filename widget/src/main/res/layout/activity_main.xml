@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<tabjin.viewex.widget.viewgroup.FourCornerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<tabjin.viewex.widget.viewgroup.DragLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/view"
     android:layout_width="300dp"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="30dp"
+    android:paddingBottom="40dp"
+    android:background="@color/light_blue_50"
     android:layout_height="wrap_content">
 
     <View
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="@color/colorPrimary" />
+        android:background="@color/colorPrimary"
+        android:clickable="true"/>
 
     <View
         android:layout_width="100dp"
@@ -29,5 +36,5 @@
         android:background="@color/white"
         android:text="sdfsdfsdfsdfsdf" />
 
-</tabjin.viewex.widget.viewgroup.FourCornerLayout>
+</tabjin.viewex.widget.viewgroup.DragLinearLayout>
 
